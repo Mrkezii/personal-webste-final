@@ -84,7 +84,15 @@ box-shadow: 0 0 0 0;
 
 
 .portfolio{
-    margin: 0 5%;
+    border-top: 1px solid red;
+    background-color: #ffebe5;
+    text-align: center;
+    padding-top: 6%;
+    color: red;
+}
+
+.portfolio .row{
+    padding-top: 5%;
 }
 
 
