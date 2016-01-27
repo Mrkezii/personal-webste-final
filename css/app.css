@@ -5,3 +5,23 @@ body {
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
+/******************************************************************HERO********************************************************************************/
+.hero{
+    background-image: url(3029274-poster-p-1-3029274whats-the-real-value-of-learning-more-than-one-programming-language.jpg);
+    background-size: cover;
+  display: block;
+/*
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+*/
+  height: 80%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+.content{
+    z-index: 2;
+}
