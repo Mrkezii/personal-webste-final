@@ -66,6 +66,9 @@ body {
 
 }
 
+.port .thumbnail{
+box-shadow: 0 0 0 0;
+}
 
 
 
