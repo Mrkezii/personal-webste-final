@@ -24,4 +24,5 @@ body {
 }
 .content{
     z-index: 2;
+    color: black;
 }
