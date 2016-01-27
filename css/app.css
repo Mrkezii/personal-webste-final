@@ -10,21 +10,23 @@ body {
 /******************************************************************HERO********************************************************************************/
 .hero{
     background-image: url(3029274-poster-p-1-3029274whats-the-real-value-of-learning-more-than-one-programming-language.jpg);
-    background-size: cover;
-  display: block;
+    background-size: 100% 100%;
+/*  display: block;*/
 /*
   filter: blur(5px);
   -webkit-filter: blur(5px);
 */
-  height: 80%;
+  height: 100%;
+/*
   left: 0;
   position: fixed;
   right: 0;
   z-index: 1;
     opacity: 0.5;
+*/
 }
 .content{
-    margin-top: 30%;
+    padding-top: 20%;
     z-index: 2;
     color: black;
 
@@ -32,10 +34,12 @@ body {
 
 
 
-/*****************************************************************WORK********************************************************************************/
+****************************************************************WORK*******************************************************************************
 
 .work{
     text-align: center;
+
+    clear: both;
 }
 
 
