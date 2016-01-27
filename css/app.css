@@ -63,6 +63,7 @@ body {
 
 .work img{
     display: inline-block;
+    background-color: red;
 
 }
 
