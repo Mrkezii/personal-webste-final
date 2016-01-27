@@ -94,8 +94,18 @@ box-shadow: 0 0 0 0;
 .portfolio .row{
     padding-top: 5%;
 }
+    .column {
+    padding:0;
 
+}
 
+/*
+.portfolio .row{
+        max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+*/
 
 
 
