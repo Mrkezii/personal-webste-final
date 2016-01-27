@@ -1,8 +1,8 @@
 /******************************************************************GENERAL*********************************************************************************/
 
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -38,7 +38,6 @@ body {
 
 .work{
     text-align: center;
-
     clear: both;
 }
 
@@ -56,8 +55,16 @@ body {
     border-right: 1px solid red;
 }
 
+.port h6{
+    display: inline-block;
+    color: red;
+    margin-left: 5%;
+}
 
+.work img{
+    display: inline-block;
 
+}
 
 
 
