@@ -149,6 +149,11 @@ body {
     color: WHITE;
     position: absolute;
 }
+.button.hollow.success:hover,
+.button.hollow.success:focus {
+    border-color: red;
+    color: red;
+}
 
 /*********************************************************************************WORK*******************************************************************************/
 
