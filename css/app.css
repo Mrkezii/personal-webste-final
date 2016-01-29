@@ -260,6 +260,7 @@ image-overlay-content a:hover {
 }
 .overlay-fade-in img {
     transition: all 0.2s linear;
+    width: 100%;
 }
 .overlay-fade-in .image-overlay-content {
     opacity: 0;
