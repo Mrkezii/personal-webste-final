@@ -126,9 +126,12 @@ body {
     padding-left: 5%;
 
 }
-.hero h2{
-    font-size: 6em;
-
+.herozzz h2{
+    font-size: 4.5em;
+color: white;
+}
+.herozzz h4{
+    color: #ffebe5;
 }
 
 
@@ -189,6 +192,7 @@ box-shadow: 0 0 0 0;
     text-align: center;
     padding-top: 6%;
     color: red;
+    padding-bottom: 6%;
 }
 
 .portfolio .row{
