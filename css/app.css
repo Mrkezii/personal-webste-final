@@ -117,9 +117,10 @@ body {
 
 }
 .content{
-    position: relative;
+    position: absolute;
     opacity: 1;
-    padding-top: 20%;
+    top: 20%;
+    left: 5%;
     z-index: 2;
     color: black;
     padding-left: 5%;
