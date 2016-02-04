@@ -133,11 +133,11 @@ body {
 */
 
 .herozzz {
-    background-image: url(gaz.png);
-    /*    background-size: 100% 100%;*/
-    background-repeat: no-repeat;
+    background-image: url(programming%20is%20an%20art.jpg);
+    background-size: 100% 100%;
+    /*    background-repeat: no-repeat;*/
     height: 107%;
-    background-color: black;
+    /*    background-color: black;*/
 }
 .content {
     position: absolute;
