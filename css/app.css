@@ -133,10 +133,15 @@ body {
 */
 
 .herozzz {
-    background-image: url(./bg.jpg);
-    background-size: 100% 100%;
+    background-image: url(./bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ;
+    /*    background-size: 100% 100%;*/
     /*    background-repeat: no-repeat;*/
-    height: 107%;
+    /*    height: 107%;*/
     /*    background-color: black;*/
 }
 .content {
