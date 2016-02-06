@@ -6,19 +6,237 @@ body {
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*footer
-*/
+/******************************************************************HERO********************************************************************************/
+
+.herozzz {
+    background-image: url(./bg.jpg);
+    ;
+    background-size: 100% 100%;
+    /*    background-repeat: no-repeat;*/
+    height: 100%;
+    /*    background-color: black;*/
+}
+.content {
+    position: absolute;
+    opacity: 1;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
+    color: black;
+    padding-left: 5%;
+}
+.herozzz h2 {
+    font-size: 4.5em;
+    color: white;
+}
+.herozzz h4 {
+    color: #ffebe5;
+}
+.button.hollow.success {
+    top: 56%;
+    left: 20%;
+    border: 1px solid #FFF;
+    color: WHITE;
+    position: absolute;
+}
+.button.hollow.success:hover,
+.button.hollow.success:focus {
+    border-color: red;
+    color: white;
+    background-color: red
+}
+.success a {
+    color: white;
+}
+
+/*blinker*/
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 5em
+    }
+}
+@-moz-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 5em
+    }
+}
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+@-moz-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+body {
+    font-family: Consolas, monospace;
+}
+h1 {
+    color: gray;
+    font-size: 300%;
+    width: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .1em solid black;
+    -webkit-animation: typing 2s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+    -moz-animation: typing 2s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+}
+
+/*********************************************************WORK**************************************************************************************************************/
+
+.work {
+    text-align: center;
+    clear: both;
+}
+.work h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+}
+.work p {
+    margin: 0 10%;
+}
+.workz {
+    border-right: 1px solid red;
+}
+.port h6 {
+    display: inline-block;
+    color: red;
+    margin-left: 5%;
+}
+.work img {
+    display: inline-block;
+    background-color: red;
+}
+.port .thumbnail {
+    box-shadow: 0 0 0 0;
+}
+.attributes {
+    margin-bottom: 10%;
+}
+.messi {
+    padding: 0 5%;
+}
+
+/******************************************************************PORTFOLIO***************************************************************************/
+
+.portfolio {
+    border-top: 1px solid red;
+    background-color: #ffebe5;
+    text-align: center;
+    padding-top: 6%;
+    color: red;
+    padding-bottom: 6%;
+    clear: both;
+}
+.portfolio .row {
+    padding-top: 5%;
+}
+
+/***************************************************internet for portfolio cover *******************************************************************************/
+
+image-overlay-content a:hover {
+    background-color: red;
+}
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    /*    border: 1px solid rgba(0, 0, 0, 0.04);*/
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
+.image-overlay-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.overlay-fade-in p {
+    letter-spacing: 0.15em;
+    color: #f4f4f4;
+    font-size: 28px;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.overlay-fade-in img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.overlay-fade-in .image-overlay-content {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+}
+.overlay-fade-in h2 {
+    color: #f2f2f2;
+    font-size: 1.3rem;
+    /* margin-top: 40%; */
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    background: rgba(0, 2, 0, 0.7);
+    padding-top: 10%;
+    height: 100%;
+}
+.overlay-fade-in .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #FFF;
+    color: #222;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    position: relative;
+    border: 1px solid #999;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.overlay-fade-in .button:hover {
+    box-shadow: 0 0 5px #000;
+}
+.overlay-fade-in:hover img {
+    transform: scale(1.1);
+}
+.overlay-fade-in:hover .image-overlay-content {
+    opacity: 1;
+}
+.overlay-fade-in:hover h2,
+.overlay-fade-in p,
+.overlay-fade-in .button {
+    opacity: 1;
+}
+.overlay-fade-in:hover p {
+    transition-delay: 0.1s;
+}
+.overlay-fade-in:hover .button {
+    transition-delay: 0.2s;
+}
+
+/************************************************************FOOTER******************************************************************************/
 
 @charset "UTF-8";
-
-/*
-.herozzz {
-  background: url(daviiid.jpg) no-repeat center center;
-  background-size: cover;
-  height: 30em;
-  overflow: hidden; }
-*/
-
 .row {
     max-width: 1200px;
 }
@@ -117,266 +335,4 @@ body {
 }
 .footer .social a:hover {
     color: red;
-}
-
-/******************************************************************HERO********************************************************************************/
-
-
-/*
-#xoxo {
-    visibility: hidden;
-    width: 50%;
-    height: auto;
-    float: left;
-    margin-top: 0px;
-}
-*/
-
-.herozzz {
-    background-image: url(./bg.jpg);
-    ;
-    background-size: 100% 100%;
-    /*    background-repeat: no-repeat;*/
-    height: 100%;
-    /*    background-color: black;*/
-}
-.content {
-    position: absolute;
-    opacity: 1;
-    top: 20%;
-    left: 5%;
-    z-index: 2;
-    color: black;
-    padding-left: 5%;
-}
-.herozzz h2 {
-    font-size: 4.5em;
-    color: white;
-}
-.herozzz h4 {
-    color: #ffebe5;
-}
-.button.hollow.success {
-    top: 56%;
-    left: 20%;
-    border: 1px solid #FFF;
-    color: WHITE;
-    position: absolute;
-}
-.button.hollow.success:hover,
-.button.hollow.success:focus {
-    border-color: red;
-    color: white;
-    background-color: red
-}
-.success a {
-    color: white;
-}
-
-/*********************************************************************************WORK*******************************************************************************/
-
-.work {
-    text-align: center;
-    clear: both;
-}
-.work h4 {
-    text-align: center;
-    font-size: 1.5em;
-    color: red;
-}
-.work p {
-    margin: 0 10%;
-}
-.workz {
-    border-right: 1px solid red;
-}
-.port h6 {
-    display: inline-block;
-    color: red;
-    margin-left: 5%;
-}
-.work img {
-    display: inline-block;
-    background-color: red;
-}
-.port .thumbnail {
-    box-shadow: 0 0 0 0;
-}
-.attributes {
-    margin-bottom: 10%;
-}
-.messi {
-    padding: 0 5%;
-}
-
-/******************************************************************
-
-PORTFOLIO
-
-
-***************************************************************************/
-
-.portfolio {
-    border-top: 1px solid red;
-    background-color: #ffebe5;
-    text-align: center;
-    padding-top: 6%;
-    color: red;
-    padding-bottom: 6%;
-    clear: both;
-}
-.portfolio .row {
-    padding-top: 5%;
-}
-
-/*
-    .column {
-    padding:0;
-
-}
-*/
-
-.portfolio .column {
-    /*    height: 0;*/
-}
-
-/*
-.websites img{
-    margin: 0 2%;
-}
-*/
-
-
-/******************************************************************internet*******************************************************************************/
-
-image-overlay-content a:hover {
-    background-color: red;
-}
-.image-wrapper {
-    width: 100%;
-    height: 100%;
-    /*    border: 1px solid rgba(0, 0, 0, 0.04);*/
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    border-radius: 4px;
-}
-.image-overlay-content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-}
-.overlay-fade-in p {
-    letter-spacing: 0.15em;
-    color: #f4f4f4;
-    font-size: 28px;
-    opacity: 0;
-    transition: all 0.2s linear;
-}
-.overlay-fade-in img {
-    transition: all 0.2s linear;
-    width: 100%;
-}
-.overlay-fade-in .image-overlay-content {
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: all 0.4s ease-in-out;
-}
-.overlay-fade-in h2 {
-    color: #f2f2f2;
-    font-size: 1.3rem;
-    /* margin-top: 40%; */
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-    background: rgba(0, 2, 0, 0.7);
-    padding-top: 10%;
-    height: 100%;
-}
-.overlay-fade-in .button {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #FFF;
-    color: #222;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-    position: relative;
-    border: 1px solid #999;
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-}
-.overlay-fade-in .button:hover {
-    box-shadow: 0 0 5px #000;
-}
-.overlay-fade-in:hover img {
-    transform: scale(1.1);
-}
-.overlay-fade-in:hover .image-overlay-content {
-    opacity: 1;
-}
-.overlay-fade-in:hover h2,
-.overlay-fade-in p,
-.overlay-fade-in .button {
-    opacity: 1;
-}
-.overlay-fade-in:hover p {
-    transition-delay: 0.1s;
-}
-.overlay-fade-in:hover .button {
-    transition-delay: 0.2s;
-}
-
-/******************************************************************HERO*******************************************************************************/
-
-@-webkit-keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 5em
-    }
-}
-@-moz-keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 5em
-    }
-}
-@-webkit-keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: black
-    }
-}
-@-moz-keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: black
-    }
-}
-body {
-    font-family: Consolas, monospace;
-}
-h1 {
-    color: gray;
-    font-size: 300%;
-    width: 5em;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .1em solid black;
-    -webkit-animation: typing 2s steps(30, end), /* # of steps = # of characters */
-    blink-caret 1s step-end infinite;
-    -moz-animation: typing 2s steps(30, end), /* # of steps = # of characters */
-    blink-caret 1s step-end infinite;
 }
