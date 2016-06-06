@@ -1,2 +1,6 @@
 # personal-webste-final
-this is my personal website, should be my final one
+this was my personal website
+
+## technologies used
+* HTML, CSS, Javascript.
+* Foundation Zurb
